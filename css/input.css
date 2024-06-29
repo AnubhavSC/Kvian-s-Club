@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Martian+Mono:wght@100&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Mono+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mainBackgound{
+    background: linear-gradient( rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.438)), url(../images/home.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buttonExp{
+    background: linear-gradient(35deg, rgb(252, 45, 45), rgb(233, 111, 55));
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+.buttonExp:hover{
+    transform: scale(1.1);
+}
+
+.navbar {
+    transition: background-color 0.3s;
+}
+
+.multiColor{
+    background: radial-gradient( ellipse farthest-corner at top left, #ec3750, #ff8c37 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.span-back{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: transparent;
+    margin-left: 8px;
+    margin-right: 16px;
+    white-space: nowrap;
+}
+
+.centerText{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    padding-left: 8px;
+    background-color: rgb(252, 45, 45);
+    position: absolute;
+    border-radius: 10px;
+    transform: rotate(-3deg) translateY(-5px);
+    color: white;
+
+}
+
+.text-container {
+    font-size: 24px;
+    color: #333;
+}
+
+#dynamicText::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
