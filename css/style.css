@@ -667,6 +667,10 @@ video {
   height: 60vh;
 }
 
+.h-\[70vh\]{
+  height: 70vh;
+}
+
 .w-5\/6{
   width: 83.333333%;
 }
@@ -796,6 +800,10 @@ video {
 
 .text-\[2rem\]{
   font-size: 2rem;
+}
+
+.text-\[1\.3rem\]{
+  font-size: 1.3rem;
 }
 
 .font-bold{
@@ -959,6 +967,10 @@ video {
   .md\:text-\[4rem\]{
     font-size: 4rem;
   }
+
+  .md\:text-\[3rem\]{
+    font-size: 3rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -991,5 +1003,15 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(4rem * var(--tw-space-x-reverse));
     margin-left: calc(4rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:text-\[4rem\]{
+    font-size: 4rem;
+  }
+
+  .xl\:text-\[4\]{
+    color: 4;
   }
 }
