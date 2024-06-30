@@ -683,6 +683,10 @@ video {
   height: 80vh;
 }
 
+.h-\[75vh\]{
+  height: 75vh;
+}
+
 .w-5\/6{
   width: 83.333333%;
 }
