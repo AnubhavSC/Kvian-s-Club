@@ -1015,6 +1015,10 @@ video {
     font-size: 4rem;
   }
 
+  .xl\:text-\[2rem\]{
+    font-size: 2rem;
+  }
+
   .xl\:text-\[4\]{
     color: 4;
   }
